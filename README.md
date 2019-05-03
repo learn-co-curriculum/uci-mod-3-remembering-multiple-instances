@@ -1,9 +1,10 @@
 # Ruby Object Remembrance
 
-## Objectives
+## Learning Goals
 
-1.  Explain the concept of remembrance in object-oriented programming.
-2.  Use class variables to remember, or store, instances of a class that are produced.
+- Explain the concept of remembrance in object-oriented programming.
+- Use class variables to remember, or store, instances of a class that are
+  produced.
 
 ## Introduction
 
@@ -210,5 +211,3 @@ class. We added new instances to this storage container every time a new
 instance was created with the help of the `self` keyword in our `#initialize`
 method. Lastly, we wrote a class method to access and print out the name of
 each song instance stored in our class variable.
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-remembering-objects-readme' title='Ruby Object Remembrance'>Ruby Object Remembrance</a> on Learn.co and start learning to code for free.</p>
